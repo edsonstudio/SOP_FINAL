@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Exercicio</title>
+</head>
+<body>
+	<div class="form-contato">
+		<h1>Contato</h1>
+		<form class="form" id="form-contato" name="contato" method="POST" action="mensagem.php">
+			<div class="form-group">
+				<label for="nome">Nome</label><br>
+				<input type="text" name="nome" id="nome" placeholder="Digite o nome" required="required">
+			</div>
+
+			<div class="form-group">
+				<label for="email">E-mail</label><br>
+				<input type="email" name="email" id="email" placeholder="Digite o e-mail" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+			</div>
+
+			<div class="form-group">
+				<label for="mensagem">Mensagem</label><br>
+				<textarea name="mensagem" rows="6">
+				</textarea>
+			</div>
+
+			<div class="form-group">
+				<button type="submit" id="enviar">Enviar</button><br>
+			</div>			
+		</form>
+	</div>
+
+</body>
+</html>
