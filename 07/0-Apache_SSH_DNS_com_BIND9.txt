@@ -1,0 +1,9 @@
+Servidor Apache / DNS com BIND9
+
+1- Seguir o tutorial de como instalar o Apache2 + SSH;
+
+1.1- Caso necessite modificar o IP da placa bridge, o Apache2 deverá ser reinstalado para atualizar o IP nas suas configurações;
+
+2- Seguir o tutorial de instalacao do servidor DNS com Bind9 utilizando o ip configurado na enp0s8(rede bridge);
+
+3- Utilizar uma máquina virtual(ex.: Win10) com rede bridge, alterando  nas configurações da placa o IP de DNS, colocando o ip configurado tanto na bridge do servidor Apache quanto do Bind9;

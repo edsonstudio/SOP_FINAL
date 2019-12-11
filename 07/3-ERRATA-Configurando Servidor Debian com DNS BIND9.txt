@@ -1,0 +1,11 @@
+Errata
+Na página 8, 
+8º Passo: Criar Site <VirtualHost>
+
+Após a criação do arquivo, insira as seguintes linhas dentro dele e salve-o
+
+<VirtualHost *:80>
+        ServerName www.meusite.com.br
+	DocumentRoot /var/html/meusite.com.br
+<VirtualHost>
+
