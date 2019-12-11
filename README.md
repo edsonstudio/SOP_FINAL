@@ -13,7 +13,10 @@ ATIVIDADES:
 * Extra *
 *********
 7. Pesquisar e documentar como configurar o seguinte domínio no debian:
+
 Ex.: www.turma1nd.com - 10.104.205.xx
+
 Serviço	Protocolo
+
 DNS	Bind9	
 
